@@ -1,0 +1,20 @@
+﻿
+@model ENB.Logistics.Mvc.Models.DisplayPhoneNumber
+
+@{
+    ViewBag.Title = ViewBag.Message + " phone details";
+}
+
+<h2></h2>
+<fieldset>
+    <legend></legend>
+    @Html.Partial("_Details", Model)
+</fieldset>
+
+
+
+<br />
+<b>
+  
+    <input type="button" class="btn btn-success" value="Back to List" onclick="location.href='@Url.Action("List", "PhoneNumbers", new { ViewBag.OperatorId })'" />    
+</b>

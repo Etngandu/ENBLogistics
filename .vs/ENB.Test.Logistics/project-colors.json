@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ea6bef28-eaf4-4763-b4b9-7c24db9a9015": {
+      "ProjectGuid": "ea6bef28-eaf4-4763-b4b9-7c24db9a9015",
+      "DisplayName": "ENB.Test.Logistics.Infrastructure",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,21 @@
+﻿@model ENB.Logistics.Mvc.Models.CreateAndEditPhoneNumber
+@{
+    ViewBag.Title = "New phone number";
+}
+
+
+<h2>@ViewBag.Title</h2>
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    @Html.Partial("_CreateOrEdit", Model)
+
+    <br />
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Create" class="btn btn-success" />
+            <input type="button" class="btn btn-success" value="Cancel" onclick="location.href='@Url.Action("List", "PhoneNumbers", new { ViewBag.OperatorId })'" />           
+        </div>
+    </div>
+   
+}

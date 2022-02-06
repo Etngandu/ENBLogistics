@@ -1,0 +1,25 @@
+﻿@model ENB.Logistics.Mvc.Models.CreateAndEditOrderPicking
+@{
+    ViewBag.Title = "New picking infos";
+}
+
+<br />
+<div class="alert alert-dismissible alert-success">
+    <h2><strong>Create Pickings Operator @ViewBag.Message </strong></h2>
+</div>
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    @Html.Partial("_CreateOrEdit", Model)
+
+    <br />
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Create" class="btn btn-success" />
+            <input type="button" class="btn btn-success" value="Cancel" onclick="location.href='@Url.Action("List", "Orderpickings", new {OperatorId = ViewBag.OperatorId })'" />
+
+        </div>
+    </div>
+
+
+}

@@ -1,0 +1,23 @@
+﻿@model ENB.Logistics.Mvc.Models.DisplayEmailAddress
+
+@{
+    ViewBag.Title = "Delete e-mail address?";
+
+}
+    <div class="alert alert-dismissible alert-danger">
+        <h3>@ViewBag.Title</h3>
+    </div>
+        <div>
+            <hr />
+            @Html.Partial("_Details", Model)
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+                @Html.HiddenFor(x => x.OperatorId)
+
+                <div class="form-actions no-color">
+                    <input type="submit" value="Delete" class="btn btn-danger" /> |
+                    <input type="button" class="btn btn-success" value="Cancel" onclick="location.href='@Url.Action("List", "EmailAddresses", new { OperatorId=ViewBag.OperatorId })'" />
+                </div>
+            }
+        </div>

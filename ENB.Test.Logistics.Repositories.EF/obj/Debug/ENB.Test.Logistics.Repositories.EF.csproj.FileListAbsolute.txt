@@ -1,0 +1,16 @@
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Repositories.EF\obj\Debug\ENB.Test.Logistics.Repositories.EF.csproj.CoreCompileInputs.cache
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Repositories.EF\bin\Debug\ENB.Test.Logistics.Repositories.EF.dll.config
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Repositories.EF\bin\Debug\ENB.Test.Logistics.Repositories.EF.dll
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Repositories.EF\bin\Debug\ENB.Test.Logistics.Repositories.EF.pdb
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Repositories.EF\bin\Debug\ENB.Test.Logistics.Entities.dll
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Repositories.EF\bin\Debug\ENB.Test.Logistics.Infrastructure.dll
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Repositories.EF\bin\Debug\EntityFramework.dll
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Repositories.EF\bin\Debug\EntityFramework.SqlServer.dll
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Repositories.EF\bin\Debug\ENB.Test.Logistics.Infrastructure.pdb
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Repositories.EF\bin\Debug\ENB.Test.Logistics.Entities.pdb
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Repositories.EF\bin\Debug\EntityFramework.xml
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Repositories.EF\bin\Debug\EntityFramework.SqlServer.xml
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Repositories.EF\obj\Debug\ENB.Test.Logistics.Repositories.EF.csproj.CopyComplete
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Repositories.EF\obj\Debug\ENB.Test.Logistics.Repositories.EF.dll
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Repositories.EF\obj\Debug\ENB.Test.Logistics.Repositories.EF.pdb
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Repositories.EF\obj\Debug\ENB.Test.Logistics.Repositories.EF.csproj.AssemblyReference.cache

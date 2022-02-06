@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENB.Test.Logistics.Entities", "ENB.Test.Logistics.Entities\ENB.Test.Logistics.Entities.csproj", "{C41909D1-2E08-441D-B59B-2A5C19C0CE70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENB.Test.Logistics.Repositories.EF", "ENB.Test.Logistics.Repositories.EF\ENB.Test.Logistics.Repositories.EF.csproj", "{79CE81A2-A51C-428E-BFDC-4B805D4A91E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENB.Test.Logistics.Infrastructure", "ENB.Test.Logistics.Infrastructure\ENB.Test.Logistics.Infrastructure.csproj", "{EA6BEF28-EAF4-4763-B4B9-7C24DB9A9015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENB.Logistics.Mvc", "ENB.Logistics.Mvc\ENB.Logistics.Mvc.csproj", "{1816CDBE-A5D9-40FC-B86E-079BB1A2C3E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENB.Logistics.WebAPI", "ENB.Logistics.WebAPI\ENB.Logistics.WebAPI.csproj", "{8277D70B-C5BB-4FAE-B064-6AFC1F9D4EB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C41909D1-2E08-441D-B59B-2A5C19C0CE70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41909D1-2E08-441D-B59B-2A5C19C0CE70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41909D1-2E08-441D-B59B-2A5C19C0CE70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41909D1-2E08-441D-B59B-2A5C19C0CE70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79CE81A2-A51C-428E-BFDC-4B805D4A91E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79CE81A2-A51C-428E-BFDC-4B805D4A91E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79CE81A2-A51C-428E-BFDC-4B805D4A91E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79CE81A2-A51C-428E-BFDC-4B805D4A91E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA6BEF28-EAF4-4763-B4B9-7C24DB9A9015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA6BEF28-EAF4-4763-B4B9-7C24DB9A9015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA6BEF28-EAF4-4763-B4B9-7C24DB9A9015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA6BEF28-EAF4-4763-B4B9-7C24DB9A9015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1816CDBE-A5D9-40FC-B86E-079BB1A2C3E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1816CDBE-A5D9-40FC-B86E-079BB1A2C3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1816CDBE-A5D9-40FC-B86E-079BB1A2C3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1816CDBE-A5D9-40FC-B86E-079BB1A2C3E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8277D70B-C5BB-4FAE-B064-6AFC1F9D4EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8277D70B-C5BB-4FAE-B064-6AFC1F9D4EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8277D70B-C5BB-4FAE-B064-6AFC1F9D4EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8277D70B-C5BB-4FAE-B064-6AFC1F9D4EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DAE38A8-86A0-408C-A002-AC66B387849F}
+	EndGlobalSection
+EndGlobal

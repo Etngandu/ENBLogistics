@@ -1,0 +1,9 @@
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Entities\obj\Debug\ENB.Test.Logistics.Entities.csproj.CoreCompileInputs.cache
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Entities\bin\Debug\ENB.Test.Logistics.Entities.dll
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Entities\bin\Debug\ENB.Test.Logistics.Entities.pdb
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Entities\bin\Debug\ENB.Test.Logistics.Infrastructure.dll
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Entities\bin\Debug\ENB.Test.Logistics.Infrastructure.pdb
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Entities\obj\Debug\ENB.Test.Logistics.Entities.csproj.CopyComplete
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Entities\obj\Debug\ENB.Test.Logistics.Entities.dll
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Entities\obj\Debug\ENB.Test.Logistics.Entities.pdb
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Entities\obj\Debug\ENB.Test.Logistics.Entities.csproj.AssemblyReference.cache

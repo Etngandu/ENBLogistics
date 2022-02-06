@@ -1,0 +1,32 @@
+﻿@model ENB.Logistics.Mvc.Models.CreateAndEditEmailAddress
+
+@{
+    ViewBag.Title = "Edit An EmaiAddress";
+}
+
+    <div class="alert alert-dismissible alert-success">
+        <h4>Create And Edit EmailAddress</h4>
+    </div>
+        <hr />
+
+
+        @using (Html.BeginForm())
+        {
+            //  @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true)
+            @Html.Partial("_CreateOrEdit", Model)
+
+
+
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Edit" class="btn btn-success" />
+                    <input type="button" class="btn btn-success" value="Back to List" onclick="location.href='@Url.Action("List", "EmailAddresses", new { OperatorId = ViewBag.OperatorId })'" />
+                </div>
+            </div>
+
+
+        }
+
+

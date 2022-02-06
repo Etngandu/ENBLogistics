@@ -1,0 +1,16 @@
+﻿@model ENB.Logistics.Mvc.Models.DisplayOrderPicking
+
+@{
+    ViewBag.Title =  ViewBag.Message + " Picking details";
+}
+
+<h2></h2>
+<fieldset>    
+    @Html.Partial("_Details", Model)
+</fieldset>
+
+
+<br />
+<b>    
+    <input type="button" class="btn btn-success" value="Back to list" onclick="location.href='@Url.Action("List", "Orderpickings", new { OperatorId=ViewBag.OperatorId  })'" />
+</b>

@@ -1,0 +1,11 @@
+D:\Devsource\ENB.Test.Logistics.Infrastructure\obj\Debug\ENB.Test.Logistics.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Devsource\ENB.Test.Logistics.Infrastructure\bin\Debug\ENB.Test.Logistics.Infrastructure.dll
+D:\Devsource\ENB.Test.Logistics.Infrastructure\bin\Debug\ENB.Test.Logistics.Infrastructure.pdb
+D:\Devsource\ENB.Test.Logistics.Infrastructure\obj\Debug\ENB.Test.Logistics.Infrastructure.dll
+D:\Devsource\ENB.Test.Logistics.Infrastructure\obj\Debug\ENB.Test.Logistics.Infrastructure.pdb
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Infrastructure\bin\Debug\ENB.Test.Logistics.Infrastructure.dll
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Infrastructure\bin\Debug\ENB.Test.Logistics.Infrastructure.pdb
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Infrastructure\obj\Debug\ENB.Test.Logistics.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Infrastructure\obj\Debug\ENB.Test.Logistics.Infrastructure.dll
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Infrastructure\obj\Debug\ENB.Test.Logistics.Infrastructure.pdb
+D:\Devsource\ENB.Test.Logistics\ENB.Test.Logistics.Infrastructure\obj\Debug\ENB.Test.Logistics.Infrastructure.csproj.AssemblyReference.cache

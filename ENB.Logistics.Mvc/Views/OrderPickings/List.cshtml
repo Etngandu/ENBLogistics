@@ -1,0 +1,120 @@
+﻿@model IEnumerable<ENB.Logistics.Mvc.Models.DisplayOrderPicking>
+
+@{
+    ViewBag.Title = ViewBag.Message + " pickings";
+}
+
+<!DOCTYPE html>
+<style type="text/css">
+
+
+    .TFtable {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+        display: table;
+        width: 100%;
+        border-collapse: separate;
+        border: solid 1px #4e95f4;
+        background-color: white;
+    }
+
+
+        .TFtable th {
+            background-color: #A7C942;
+        }
+
+        .TFtable th, td {
+            padding: 3px 7px 2px;            
+            border: #98BF21 1px solid;
+            text-align: center;
+        }
+        /* provide some minimal visual accomodation for IE8 and below */
+        .TFtable tr {
+            background: #EAF2D3;
+        }
+            /*  Define the background color for all the ODD background rows  */
+            .TFtable tr:nth-child(odd) {
+                background: #EAF2D3;
+            }
+            /*  Define the background color for all the EVEN background rows  */
+            .TFtable tr:nth-child(even) {
+                background: #FFFFFF;
+            }
+</style>
+
+<hr />
+<br />
+<div class="alert alert-dismissible alert-success">
+    <h2><strong>Pickings Operator @ViewBag.Message </strong></h2>
+</div>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+
+
+<body>
+    @if (Model.Any())
+    {
+        <table class="TFtable">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.NContainers)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DateCreated)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DateModified)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ZonePicking)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TypePicking)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NContainers)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateCreated)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateModified)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ZonePicking)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TypePicking).ToString().Replace("_"," ")
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.Id, ViewBag.OperatorId }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.Id, ViewBag.OperatorId }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.Id, ViewBag.OperatorId })
+                    </td>
+                </tr>
+            }
+
+        </table>
+    }
+    else
+    {
+        <p>No Picking Info found.</p>
+    }
+
+    <p><br />
+     <input type="button" class="btn btn-success" value="Create New" onclick="location.href='@Url.Action("create", "Orderpickings", new { ViewBag.OperatorId })'" />
+     <input type="button" class="btn btn-success" value="Back to start list" onclick="location.href='@Url.Action("Index", "Operator")'" />
+    </p>
+
+</body>
+</html>

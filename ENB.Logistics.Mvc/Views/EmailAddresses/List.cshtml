@@ -1,0 +1,86 @@
+﻿@model IEnumerable<ENB.Logistics.Mvc.Models.DisplayEmailAddress>
+
+@{
+    ViewBag.Title = ViewBag.Message + " Email-addresses";
+}
+
+<style type="text/css">
+
+
+    .TFtable {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+        display: table;
+        width: 100%;
+        border-collapse: separate;
+        border: solid 1px #4e95f4;
+        background-color: white;
+    }
+
+
+        .TFtable th {
+            background-color: #A7C942;
+        }
+
+        .TFtable th, td {
+            padding: 3px 7px 2px;
+            border: #98BF21 1px solid;
+            text-align: center;
+        }
+        /* provide some minimal visual accomodation for IE8 and below */
+        .TFtable tr {
+            background: #EAF2D3;
+        }
+            /*  Define the background color for all the ODD background rows  */
+            .TFtable tr:nth-child(odd) {
+                background: #EAF2D3;
+            }
+            /*  Define the background color for all the EVEN background rows  */
+            .TFtable tr:nth-child(even) {
+                background: #FFFFFF;
+            }
+</style>
+<hr />
+<br />
+<div class="alert alert-dismissible alert-success">
+    <h2><strong>EmailAddresses  @ViewBag.Message</strong></h2>
+</div>
+@if (Model.Any())
+{
+    <table class="TFtable">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailAddressText)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmailAddressText)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id, ViewBag.OperatorId }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id, ViewBag.OperatorId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id, ViewBag.OperatorId })
+                </td>
+            </tr>
+        }
+
+    </table>
+    <br />
+}
+else
+{
+    < p > No e - mail addresses found.</ p >
+}
+
+
+<p>
+    <b>
+        <input type="button" class="btn btn-success" value="Create New" onclick="location.href='@Url.Action("Create", "EmailAddresses", new { ViewBag.OperatorId })'" />
+        <input type="button" class="btn btn-success" value="Back to start List" onclick="location.href='@Url.Action("Index", "Operator")'" />
+    </b>
+</p>
